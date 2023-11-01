@@ -74,6 +74,10 @@ footer img {
   flex-flow: row wrap;
 }
 
+.image-container:nth-child(3n - 1) {
+  flex-grow: 2;
+}
+
 .image-container {
   height: 30vh;
   width: 20vw;
